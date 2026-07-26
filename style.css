@@ -62,7 +62,22 @@ nav a{
 nav a:hover{
     color:#38bdf8;
 }
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;  
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+nav ul li a {
+    font-size: 15px;
+    white-space: nowrap; 
+    text-decoration: none;
+}
 .hero{
     min-height:100vh;
     display:flex;
